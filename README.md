@@ -2,4 +2,5 @@
 
 - Sessão principal concluída.
 - Sessão sobre concluída.
-- Sessão de serviços iniciada.
+- Sessão de serviços finalizada.
+- Sessão portfólio iniciada.
