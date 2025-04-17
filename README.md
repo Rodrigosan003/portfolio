@@ -4,4 +4,5 @@
 - Sessão sobre concluída.
 - Sessão de serviços concluída.
 - Sessão portfólio concluída.
-- Sessão contatos Iniciar.
+- Sessão contatos concluída.
+- JS iniciado.
