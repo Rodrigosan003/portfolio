@@ -347,6 +347,7 @@ span {
 }
 
 .footer-iconTop a {
+  height: 4rem;
   display: inline-flex;
   justify-content: center;
   align-items: center;
