@@ -6,5 +6,5 @@
 - Sessão portfólio concluída.
 - Sessão contatos concluída.
 - Menu mobile concluído.
-- JS iniciado.
-- Responsividade iniciada.
+
+# Concluído.
