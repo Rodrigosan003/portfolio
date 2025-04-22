@@ -225,15 +225,21 @@
           <input type="email" placeholder="E-mail" name="email" required />
         </div>
         <div class="input-box">
-          <input type="number" placeholder="Número de celular" />
-          <input type="text" placeholder="Assunto" />
+          <input
+            type="number"
+            placeholder="Número de celular"
+            name="number"
+            required
+          />
+          <input type="text" placeholder="Assunto" name="assunto" required />
         </div>
         <textarea
-          name=""
+          name="mensagem"
           id=""
           cols="30"
           rows="10"
           placeholder="Sua Mensagem"
+          required
         ></textarea>
         <input type="submit" value="Enviar Mensagem" class="btn" />
       </form>
