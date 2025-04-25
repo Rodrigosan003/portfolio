@@ -310,6 +310,39 @@ span {
   margin-bottom: 3rem;
 }
 
+.contact-links {
+  width: 40%;
+  text-align: center;
+  margin: auto;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  font-size: 2.5rem;
+  border-radius: 5rem;
+  margin: 1rem;
+  border: 0.2rem solid var(--main-color);
+  color: var(--main-color);
+}
+
+.links a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18rem;
+  color: var(--main-color);
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.links a:hover {
+  color: var(--text-color);
+  background: var(--main-color);
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
