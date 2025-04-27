@@ -310,6 +310,23 @@ span {
   margin-bottom: 3rem;
 }
 
+.contact-links {
+  height: 50vh;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.links {
+  border: 2px solid green;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--main-color);
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
