@@ -311,20 +311,30 @@ span {
 }
 
 .contact-links {
-  height: 50vh;
+  width: 50%;
+  margin: auto;
   text-align: center;
-  border: 2px solid red;
-}
-
-.links {
-  border: 2px solid green;
 }
 
 .links a {
+  border-radius: 5rem;
+  padding: 2rem 3.5rem;
+  margin: 2rem 0;
+  border: 0.2rem solid var(--main-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
   color: var(--main-color);
+  font-size: 3rem;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+.links a:hover {
+  background: var(--main-color);
+  color: var(--text-color);
+  box-shadow: 0 0 1rem var(--main-color);
+  transform: scale(1.02);
 }
 
 .footer {
@@ -386,6 +396,10 @@ span {
 
   .contact {
     min-height: auto;
+  }
+
+  .contact .contact-links {
+    width: 60%;
   }
 
   .footer {
@@ -457,11 +471,18 @@ span {
   .portfolio-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .contact .contact-links {
+    width: 80%;
+  }
 }
 
 @media (max-width: 617px) {
   .portfolio-container {
     grid-template-columns: 1fr;
+  }
+  .contact .contact-links {
+    width: 90%;
   }
 
   .footer {
@@ -479,9 +500,9 @@ span {
     font-size: 50%;
   }
 
-  /* .contact form .input-box input {
-    width: 100%;
-  } */
+  .contact .contact-links {
+    width: 90%;
+  }
 
   .footer {
     flex-direction: column-reverse;
