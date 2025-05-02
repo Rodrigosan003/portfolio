@@ -500,6 +500,10 @@ span {
     font-size: 50%;
   }
 
+  .portfolio-container .portfolio-box {
+    height: 30rem;
+  }
+
   .contact .contact-links {
     width: 90%;
   }
@@ -521,6 +525,10 @@ span {
 
   .about-img img {
     width: 90vw;
+  }
+
+  .portfolio-container .portfolio-box {
+    height: 30rem;
   }
 
   .footer {
