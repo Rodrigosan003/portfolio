@@ -4,4 +4,4 @@
 
 [Clique aqui para acessar.]( https://rodrigosan003.github.io/portfolio/)
 
-![imagem do site portfólio](./assets/images/meuPortfolio-Codigo.png)
+![imagem do site portfólio](./assets/images/portfolioDesktop.png)
